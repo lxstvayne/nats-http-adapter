@@ -8,8 +8,8 @@ Example:
 
 ```json
 {
-    "subject":"test",
-    "type":"request",
+    "subject": "test",
+    "type": "request",
     "data": "any data"
 }
 ```
