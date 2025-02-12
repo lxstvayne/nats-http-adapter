@@ -1,0 +1,7 @@
+services:
+  
+  nats-http-adapter:
+    image: ghcr.io/lxstvayne/nats-http-adapter:latest
+    restart: "unless-stopped"
+    environment:
+      - NATS_URL=nats://host.docker.internal:4222
