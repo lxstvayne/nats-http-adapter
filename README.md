@@ -6,7 +6,7 @@ Requests should be sent POST HTTP Request to endpoint `localhost:8080/`
 
 Example:
 
-```
+```json
 {
     "subject":"test",
     "type":"request",
